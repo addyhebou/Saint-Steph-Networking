@@ -5,3 +5,7 @@ Below is the following:
 - functions.js (specifying all the functions)
 - searchTags.html (providing all the YouTube tags)
 - artistDM.html (providing how I should DM artists for collabs/sales)
+
+
+## Click Below to Access the Home Page:
+
