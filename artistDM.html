@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="functions.js"></script>
+    <title>Instagram DM</title>
+    <style>
+        input{
+            width: 150px;
+        }
+        body{
+            text-align: center;
+        }
+        body div{
+            margin: 150px 0px;
+        }
+        img{
+            width: 20%;
+        }
+        button{
+            background-color: white;
+            border: 0.22 solid black;
+            border-radius: 23px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-sizing: border-box;
+            font-size: 20px;
+            height: 102px;
+            margin: 40px 0px;
+            padding: 20px;
+            width: 277px;
+        }
+    </style>
+</head>
+<header>
+    <a href="searchTags.html">SearchTags</a>
+</header>
+<body>
+    <div>
+        <img src = "Saint Steph Logo SUNSET TRANSPARENT.png">
+        <h1>Saint Steph Youtube and Instagram Algorithm</h1>
+        <h2>DM Message</h2>
+        <input type="text" placeholder="Artist Name" id="artistName">
+        <input type="text" placeholder="Genre 1" id="genre">
+        <input type="text" placeholder="Genre 2" id="genre2">
+        <input type="text" placeholder="Platform" id="platform">
+        <p id = "comment" onClick = 'copyText(this)'></p>
+        <p id = "message" onClick='copyText(this)'></p>
+        <p id = "message2" onClick='copyText(this)'></p>
+        <br>
+        <p>Sales?</p><input type="checkbox" id="checkIfSales">
+        <button type="button" onclick="message();"><p>Get All Info</p></button>
+    </div>
+</body>
+</html>
+
+<!-- YOOOOOOO I just checked this out on [platform] -->
