@@ -103,6 +103,7 @@ function tag(){
     var genre2 = document.getElementById("genre2").value.toLowerCase();
     var instrument = document.getElementById("instrument").value.toLowerCase();
     var instrument2 = document.getElementById("instrument2").value.toLowerCase();
+<<<<<<< HEAD
 
     // initialize tags for artist 1
     var tags = `
@@ -705,6 +706,8 @@ function tag(){
     var genre2 = document.getElementById("genre2").value.toLowerCase();
     var instrument = document.getElementById("instrument").value.toLowerCase();
     var instrument2 = document.getElementById("instrument2").value.toLowerCase();
+=======
+>>>>>>> b3bc9c5b930f0e8d6d69c0c1c5d90f064f04c002
 
     // initialize tags for artist 1
     var tags = `
